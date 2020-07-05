@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#c8c8c8">
+
+            <TextView
+                android:id="@+id/proName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="@drawable/customborder">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/noticeTitle"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center_vertical"
+                android:text="작성자: 이완주" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center_vertical"
+                android:text="작성일:2019.10.02" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/className"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9월 20일에 내주었던 과제에 대해
+                \n연장 제출을 허용하도록 하겠습니다.
+                \n새로운 과제 제출 기한은 10월 7일까지 입니다.
+                \n\n학생들은 착오가 없기를 바랍니다."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="목록가기"
+        android:background="#505050"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

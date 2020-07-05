@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    <Button
+        android:id="@+id/subject1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="운영체제"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+    <Button
+        android:id="@+id/subject2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="리눅스"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+
+    <Button
+        android:id="@+id/subject3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="C프로그래밍"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+
+    <Button
+        android:id="@+id/subject4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="이산수학"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+
+    <Button
+        android:id="@+id/subject5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="컴퓨터 구조"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+
+    <Button
+        android:id="@+id/subject6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginVertical="3dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:text="컴퓨터 보안"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"/>
+        -->
+
+
+<!--android:scaleType="fitXY"-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmListActivity"
+    android:id="@+id/PLAY_PARENT"
+    android:padding="0dp">
+
+    //ClassList 부분
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ycheck.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/p_fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.example.ycheck.ui.notice.NoticeFragment"
+        android:label="@string/menu_notice"
+        tools:layout="@layout/p_fragment_notice" />
+
+    <fragment
+        android:id="@+id/nav_check"
+        android:name="com.example.ycheck.ui.check.p_CheckListFragment"
+        android:label="출석체크"
+        tools:layout="@layout/p_fragment_check" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.ycheck.ui.schedule.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/p_fragment_schedule" />
+<!--
+    <fragment
+        android:id="@+id/nav_class_list"
+        android:name="com.example.ycheck.ui.classList.ClassListFragment"
+        android:label="@string/menu_class_list"
+        tools:layout="@layout/p_fragment_class_list" />
+-->
+    <fragment
+        android:id="@+id/nav_alarm"
+        android:name="com.example.ycheck.ui.alarm.AlarmFragment"
+        android:label="@string/menu_alarm"
+        tools:layout="@layout/p_fragment_alarm" />
+</navigation>

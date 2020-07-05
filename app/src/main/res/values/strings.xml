@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YCheck</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"></string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_notice">공지사항</string>
+    <string name="menu_schedule">학사 일정</string>
+    <string name="menu_class_list">내 수업목록</string>
+    <string name="menu_memo">내 메모</string>
+    <string name="menu_alarm">알림 설정</string>
+    <string name="menu_check">출석 체크</string>
+</resources>

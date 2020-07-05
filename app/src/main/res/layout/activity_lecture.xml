@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#E4E3E3"
+            android:gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 강의실 출석체크하기"
+            android:textSize="30dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/scanQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="출석하기"
+            android:layout_margin="20dp"/>
+        <!--
+                <ProgressBar
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressBackgroundTint="#0000FF"
+                    android:progressTint="#FF0000"
+                    style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+                    tools:ignore="MissingConstraints">
+                </ProgressBar>
+
+
+                <TableLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:stretchColumns="*">
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="주차 및 차시"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="수업 일자"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="출석 확인"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="1주차 1차시"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="2019-09-06"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="출석"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="2주차 2차시"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="2019-09-13"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="출석"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="3주차 3차시"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="2019-09-20"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="결석"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="4주차 4차시"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="2019-09-27"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="출석"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableLayout>
+                -->
+    </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
